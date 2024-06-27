@@ -8,6 +8,7 @@ import Accordian from "./components/accordian";
 import Starring from "./components/starring";
 import Slider from "./components/slider";
 import Search from "./components/search";
+import QRCodeGenerator from "./components/qr-code-generator";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="projects/starring" element={<Starring />} />
           <Route path="projects/slider" element={<Slider />} />
           <Route path="projects/search" element={<Search />} />
+          <Route path="projects/qrcode" element={<QRCodeGenerator />} />
         </Route>
       </Routes>
     </BrowserRouter>

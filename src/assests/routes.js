@@ -31,6 +31,7 @@ const PROJECT_ROUTES = [
   { id: 3, title: "Starring", link: "starring" },
   { id: 4, title: "Slider", link: "Slider" },
   { id: 4, title: "Search & Load more", link: "search" },
+  { id: 4, title: "QR Code Generator", link: "qrcode" },
 ];
 
 export { PROJECT_ROUTES, ROUTES };
