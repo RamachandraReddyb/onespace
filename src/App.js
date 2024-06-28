@@ -9,6 +9,9 @@ import Starring from "./components/starring";
 import Slider from "./components/slider";
 import Search from "./components/search";
 import QRCodeGenerator from "./components/qr-code-generator";
+import DashBoard from "./components/hoc";
+import FormValidation from "./components/form";
+import TicTacToe from "./components/tic-tac-toe";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
           <Route path="projects/slider" element={<Slider />} />
           <Route path="projects/search" element={<Search />} />
           <Route path="projects/qrcode" element={<QRCodeGenerator />} />
+          <Route path="projects/hoc" element={<DashBoard />} />
+          <Route path="projects/form" element={<FormValidation />} />
+          <Route path="projects/tic-tac-toe" element={<TicTacToe />} />
         </Route>
       </Routes>
     </BrowserRouter>
